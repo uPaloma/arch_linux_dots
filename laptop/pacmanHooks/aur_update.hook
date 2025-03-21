@@ -1,0 +1,8 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+[Action]
+Description = Updating librewolf...
+When = PostTransaction
+Exec = /home/paloma/aur/update_aur.sh
